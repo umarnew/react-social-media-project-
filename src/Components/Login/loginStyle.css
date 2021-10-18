@@ -1,0 +1,36 @@
+Form {
+  border-radius: 15px;
+  width: 400px;
+  float: right;
+}
+.fullForm {
+  margin-top: 50px;
+  float: right;
+  text-align: left;
+}
+.inputFiled {
+  border-radius: 15px;
+}
+
+.loginImage {
+  width: 50%;
+  float: left;
+}
+
+.labels {
+  text-align: left;
+}
+.signIn {
+  /* float: right; */
+  width: 400px;
+}
+.login_form {
+  margin-top: 10%;
+}
+.agreeCheckBox {
+  margin-bottom: 1rem;
+}
+
+.form-check-input {
+  margin-right: 5px;
+}
