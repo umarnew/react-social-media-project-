@@ -1,9 +1,9 @@
+/** @format */
+
 import React, { useEffect, useState } from "react";
-// import axios from "axios";
-// import ShowTable from "./showTable";
 import { Table } from "react-bootstrap";
 
-const FetchAPIdata = () => {
+const ListUSer = () => {
   const [users, setUsers] = useState([]);
 
   async function UserList() {
@@ -14,8 +14,6 @@ const FetchAPIdata = () => {
   useEffect(() => {
     UserList();
   }, []);
-  // console.log(users);
-  // return <div>{users && <ShowTable users={users} />}</div>;
 
   return (
     <div>
@@ -47,4 +45,4 @@ const FetchAPIdata = () => {
   );
 };
 
-export default FetchAPIdata;
+export default ListUSer;

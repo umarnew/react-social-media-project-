@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import FetchAPIdata from "./fetchAPIdata";
+import { Table } from "react-bootstrap";
+
 const ShowTable = ({ users }) => {
   console.log(users);
   return (
     <>
-      <FetchAPIdata />
+      {/* <FetchAPIdata />
       <div style={{ float: "right" }} class='col-md-10'>
         <div class='container_border'>
           <table class='table'>
@@ -20,6 +22,33 @@ const ShowTable = ({ users }) => {
             </thead>
           </table>
         </div>
+      </div> */}
+
+      <div>
+        <Table striped bordered hover>
+          <thead></thead>
+          <tbody>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+
+            {users.map((e) => {
+              return (
+                <>
+                  <tr>
+                    <td>{e.id}</td>
+                    <td>{e.name}</td>
+                    <td>{e.username}</td>
+                    <td>{e.email}</td>
+                  </tr>
+                </>
+              );
+            })}
+          </tbody>
+        </Table>
       </div>
     </>
   );
