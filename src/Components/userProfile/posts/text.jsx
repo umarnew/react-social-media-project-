@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 
-const Text = (postText) => {
-  return <p>{postText}</p>;
+const MyText = ({ postText }) => {
+  return (
+    <div>
+      <p className='text'>{postText}</p>
+    </div>
+  );
 };
 
-export default Text;
+export default MyText;

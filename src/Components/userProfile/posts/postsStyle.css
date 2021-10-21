@@ -1,0 +1,76 @@
+.postImage {
+  float: left;
+  width: 2.5rem;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+/* .postTime {
+  float: left;
+}
+.postName {
+  float: left;
+} */
+
+.postTimeAndName {
+  float: left;
+}
+
+.text {
+  width: 100%;
+  float: left;
+  padding-top: 10px;
+  text-align: left;
+}
+
+/* post */
+.post {
+  border-style: inset;
+  border-width: 1px;
+  border-color: #b2b2b240;
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.postImages {
+  height: 6rem;
+  float: left;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.postImages:hover {
+  transform: scale(1.5);
+}
+
+.postImagesAll {
+  width: 100%;
+  float: left;
+}
+
+.likes,
+.comments {
+  float: left;
+  margin-right: 20px;
+  margin-top: 0.7rem;
+  padding-top: 0.2rem;
+}
+
+.likeAndComment {
+  margin-top: 1rem;
+  float: left;
+  width: 100%;
+  border-bottom: groove;
+  border-top: groove;
+  border-width: 1px;
+  border-color: #ffffff52;
+  margin-bottom: 1rem;
+}
+
+.commentBox {
+  border-radius: 10px;
+  height: 2.8rem;
+}

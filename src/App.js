@@ -22,7 +22,7 @@ function App() {
       {/* <FetchAPIdata /> */}
       {/* <ListUSer /> */}
       {/* <MyModal /> */}
-      <ModalButton />
+      {/* <ModalButton /> */}
       <UserProfile />
     </div>
   );
