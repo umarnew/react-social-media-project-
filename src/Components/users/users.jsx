@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ShowTable from "./showTable";
 
 const Users = () => {
-  return <ShowTable />;
+  return <ShowTable  />;
 };
 
 export default Users;

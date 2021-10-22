@@ -7,12 +7,16 @@ const RightBarComponent = ({
   postingTime,
 }) => {
   return (
-    <div>
-      <img className='postImage' src={postingRightBarComponentPicture} alt='' />
+    <div class='rightbarComponent'>
+      <img
+        className='postImageRightBar'
+        src={postingRightBarComponentPicture}
+        alt=''
+      />
 
-      <div className='postTimeAndName'>
+      <div style={{ marginBottom: "0.1rem", textAlign: "left", float: "left" }}>
         <strong>{postingRightBarComponentName}</strong>
-        <p>{postingTime}</p>
+        <p style={{ fontSize: "0.8rem" }}>{postingTime}</p>
       </div>
     </div>
   );

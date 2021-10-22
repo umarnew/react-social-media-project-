@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 
 import Login from "./Components/Login/login";
-import Navbar from "./Components/navbar/navbar";
+import TopNavbar from "./Components/navbar/navbar";
 import Users from "./Components/users/users";
 import ListUSer from "./Components/users/tempAPIFetch.jsx";
 import FetchAPIdata from "./Components/users/fetchAPIdata";
@@ -23,6 +23,7 @@ function App() {
       {/* <ListUSer /> */}
       {/* <MyModal /> */}
       {/* <ModalButton /> */}
+      <TopNavbar />
       <UserProfile />
     </div>
   );
