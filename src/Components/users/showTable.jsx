@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FetchAPIdata from "./fetchAPIdata";
 import { Table } from "react-bootstrap";
+import ModalButton from "../modal/modalButton";
 
 const ShowTable = ({ users }) => {
   console.log(users);
@@ -43,6 +44,9 @@ const ShowTable = ({ users }) => {
                     <td>{e.name}</td>
                     <td>{e.username}</td>
                     <td>{e.email}</td>
+                    {/* <td>
+                      <ModalButton />
+                    </td> */}
                   </tr>
                 </>
               );

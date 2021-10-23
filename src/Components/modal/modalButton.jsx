@@ -9,7 +9,7 @@ function ModalButton() {
   return (
     <>
       <Button variant='primary' onClick={() => setModalShow(true)}>
-        Launch modal with grid
+        Edit Info{" "}
       </Button>
 
       <MyModal show={modalShow} onHide={() => setModalShow(false)} />

@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { Table } from "react-bootstrap";
+import ModalButton from "../modal/modalButton";
 
 const ListUSer = () => {
   const [users, setUsers] = useState([]);
@@ -25,6 +26,7 @@ const ListUSer = () => {
             <th>First Name</th>
             <th>Last Name</th>
             <th>Username</th>
+            <th>Edit Info</th>
           </tr>
 
           {users.map((e) => {
@@ -35,6 +37,9 @@ const ListUSer = () => {
                   <td>{e.name}</td>
                   <td>{e.username}</td>
                   <td>{e.email}</td>
+                  <td>
+                    <ModalButton />
+                  </td>
                 </tr>
               </>
             );

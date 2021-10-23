@@ -16,15 +16,16 @@ import UserProfile from "./Components/userProfile/userProfile";
 function App() {
   return (
     <div className='App'>
+      <TopNavbar />
       {/* <Login /> */}
       {/* <Users /> */}
-      {/* <ListUSer /> */}
+      <ListUSer />
       {/* <FetchAPIdata /> */}
       {/* <ListUSer /> */}
       {/* <MyModal /> */}
       {/* <ModalButton /> */}
-      <TopNavbar />
-      <UserProfile />
+
+      {/* <UserProfile /> */}
     </div>
   );
 }
